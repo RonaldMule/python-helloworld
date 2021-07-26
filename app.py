@@ -39,4 +39,4 @@ if __name__ == "__main__":
 
     ## stream logs to app.log file
     logging.basicConfig(filename='app.log',level=logging.DEBUG)
-    app.run(host='127.0.0.1')
+    app.run(host='0.0.0.0', port=8080)
